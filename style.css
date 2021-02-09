@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  text-align: center;  
+  width: 100%;
+  padding-top: 25px;
+}
+#topLogo {
+  height: 120px;
+  width: 230px;
+  position: absolute;
+}
+#navButtons li{
+  list-style: none;
+  display: inline;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: x-large;
+  font-family: 'Acme', sans-serif;
+  font-weight: bolder;
+}
+h1 {
+  font-size: 64px;
+  font-family: 'Acme', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+#mural {
+  display: grid;
+  height: 100%;
+}
+
+#muralPic {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
